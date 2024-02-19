@@ -107,3 +107,17 @@ input, select {
   justify-content: space-between;
   gap: .5rem;
 }
+
+@media (max-width: 550px) {
+  .complete, .remove {
+    font-size: .8rem;
+    padding: .5rem
+  }
+  .todo {
+    padding: 8px;
+    margin-bottom: 8px;
+    display: block;
+    text-align: center;
+    transition: .3s;
+  }
+}
